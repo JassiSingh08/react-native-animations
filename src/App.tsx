@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { DarkModeProvider } from "./hooks/useDarkMode";
 import Layout from "./components/Layout";
@@ -10,7 +10,7 @@ function App() {
   return (
     <HelmetProvider>
       <DarkModeProvider>
-        <Router basename="/react-native-animations">
+        <Router>
           <SEO />
           <Layout>
             <Routes>

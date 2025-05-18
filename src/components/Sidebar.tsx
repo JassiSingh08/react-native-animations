@@ -52,7 +52,7 @@ const Sidebar: React.FC<SidebarProps> = ({
               className="flex justify-center items-center text-xl font-bold text-indigo-600 dark:text-indigo-400"
             >
               <img
-                src="/react-native-animations/react-native-animtions.png"
+                src={`${import.meta.env.BASE_URL}react-native-animtions.png`}
                 alt="logo"
                 className="w-12 h-12 mr-2 rounded-lg"
               />

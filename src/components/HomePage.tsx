@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
     <div className="py-8 px-4 md:px-8 max-w-4xl mx-auto">
       <div className="text-center mb-6">
         <img
-          src="/react-native-animations/react-native-animtions-text.png"
+          src={`${import.meta.env.BASE_URL}react-native-animtions-text.png`}
           alt="React Native Animation Components"
           className="rounded-lg mb-4"
         />
