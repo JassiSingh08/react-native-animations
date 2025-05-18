@@ -10,7 +10,7 @@ function App() {
   return (
     <HelmetProvider>
       <DarkModeProvider>
-        <Router>
+        <Router basename="/react-native-animations">
           <SEO />
           <Layout>
             <Routes>

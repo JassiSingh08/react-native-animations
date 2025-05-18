@@ -78,7 +78,7 @@ const AnimationDetail: React.FC = () => {
             className="max-w-full h-auto rounded"
             style={{ maxHeight: "300px" }}
           >
-            <source src={`/videos/${animation.id}.mp4`} type="video/mp4" />
+            <source src={`/react-native-animations/videos/${animation.id}.mp4`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
